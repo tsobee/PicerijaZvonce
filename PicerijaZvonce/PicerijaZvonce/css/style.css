@@ -1,0 +1,376 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.cistac{
+	clear:both;
+}
+ul{
+	list-style:none;
+}
+li{
+display:inline-block;
+}
+a{
+	text-decoration:none;
+	font-size:24px;
+	color:#fff;
+}
+body{
+background-color:#f0ffe4;
+}
+#okvir{
+width:100%;
+
+}
+#header{
+width:100%;
+height:100px;
+background-color:#93c572;
+margin:0px auto;
+}
+#logo{
+float:left;
+padding:0px 30px;
+padding-top:10px;
+}
+#logo img{
+width:80px;
+height:80px;
+}
+#meni {
+font-weight:700;
+font-size:24px;
+font-family: 'Bebas Neue', cursive;
+text-align:center;
+}
+#meni li{
+padding-right:10px;
+padding-left:10px;
+margin:30px auto;
+}
+#meni ul li a.active
+{
+color:#e1ffc9;
+border-top:2px solid #e1ffc9;
+}
+#meni ul li a:hover{
+color:#e1ffc9;
+}
+#slajder{
+width:100%;
+height:500px;
+background:url(../img/slajder.jpg);
+background-size:cover;
+}
+#slajder h1{
+color:#f0ffe4;
+font-size:80px;
+padding-top:70px;
+padding-left:40px;
+font-family: 'Calistoga', cursive;
+}
+#slajder p{
+color:#f0ffe4;
+font-size:20px;
+padding-left:40px;
+margin-top:70px;
+font-family: 'Calistoga', cursive;
+}
+#bio{
+width:1000px;
+height:850px;
+background-color:#93c572;
+margin:0px 700px 0px 100px;
+border-radius:50px;
+position:relative;
+top:-75px;
+}
+#bio h2{
+color:#f0ffe4;
+text-align:center;
+font-size:50px;
+font-family: 'Bebas Neue', cursive;
+}
+#bio p{
+padding:50px;
+color:#f0ffe4;
+font-size:24px;
+font-family: 'Calistoga', cursive;
+text-align:justify;
+}
+#potpis{
+position:absolute;
+bottom:15px;
+right:15px;
+color:#f0ffe4;
+font-size:24px;
+font-family: 'Calistoga', cursive;
+}
+#footer{
+width:100%;
+height:300px;
+background-color:#698a50;
+display:flex;
+justify-content:space-between;
+}
+.info{
+float:left;
+padding:50px;
+}
+.info h3{
+color:#f0ffe4;
+font-family: 'Calistoga', cursive;
+font-size:30px;
+margin-bottom:20px;
+}
+.info ul li {
+display:block;
+color:#f0ffe4;
+}
+.info p{
+color:#f0ffe4;
+font-family: 'Calistoga', cursive;
+font-size:30px;
+margin-top:100px;
+}
+#jelovnik{
+width:100%;
+height:auto;
+background-color:rgba(122, 122, 82,0.6);
+}
+.promo {
+width:100%;
+height:70px;
+background-color:#f0ffe4;
+}
+.promo p{
+text-align:center;
+font-weight:700;
+font-size:24px;
+font-family: 'Bebas Neue', cursive;
+color:rgba(122, 122, 82,0.6);
+letter-spacing:3px;
+padding:18px;
+}
+.pice{
+display:flex;
+justify-content:space-around;
+}
+.pice h4{
+text-align:center;
+font-family: 'Bebas Neue', cursive;
+color:#f0ffe4;
+margin-bottom:10px;
+}
+.pice p{
+text-align:center;
+font-family: 'Bebas Neue', cursive;
+color:#f0ffe4;
+margin-bottom:10px;
+}
+.pizza{
+margin-top:10px;
+transition:width 3s,height 3s,transform 1s;
+}
+.pizza:hover{
+transform:rotate(2deg);
+}
+.ocene{
+font-family: 'Bebas Neue', cursive;
+color:#f0ffe4;
+margin-left:155px;
+}
+
+.cena{
+margin-left:50px;
+font-family: 'Bebas Neue', cursive;
+color:#f0ffe4;
+
+}
+.velicina{
+margin-left:80px;
+font-family: 'Bebas Neue', cursive;
+color:#f0ffe4;
+margin-top:10px;
+}
+#reklama1{
+width:100%;
+height:70px;
+background-color:#93c572;
+border-radius:30px;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+}
+#reklama1 p{
+color:#f0ffe4;
+font-weight:700;
+font-size:24px;
+font-family: 'Bebas Neue', cursive;
+text-align:center;
+letter-spacing:3px;
+padding:18px;
+}
+#reklama2{
+width:100%;
+height:70px;
+background-color:#93c572;
+border-radius:30px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+}
+#reklama2 p{
+color:#f0ffe4;
+font-weight:700;
+font-size:24px;
+font-family: 'Bebas Neue', cursive;
+text-align:center;
+letter-spacing:3px;
+padding:18px;
+}
+#porudžbine{
+width:80%;
+height:700px;
+background-image:url(../img/poruči.jpg);
+margin:0px auto;
+border-radius:50px;
+}
+#porudžbine h3{
+font-family: 'Bebas Neue', cursive;
+color:#f0ffe4;
+}
+#porudžbine table{
+margin:0px auto;
+margin-bottom:50px;
+background:rgba(204,204,179,0.2);
+color:#f0ffe4;
+font-size:18px;
+font-family: 'Bebas Neue', cursive;
+border-radius:30px;
+position:relative;
+top:100px;
+right:200px;
+}
+#autor{
+width:1200px;
+height:600px;
+background-color:#93c572;
+margin:50px auto;
+border-radius:0px 200px 0px 200px ;
+position:relative;
+}
+#tekst h2{
+color:#f0ffe4;
+text-align:center;
+font-size:50px;
+font-family: 'Bebas Neue', cursive;
+padding-top:20px;
+padding-bottom:40px;
+}
+#slika img{
+padding-top:10px;
+padding-right:10px;
+border-radius:200px;
+position:absolute;
+bottom:0px;
+left:0px;
+}
+#tekst p{
+float:right;
+padding-left:500px;
+padding-right:200px;
+color:#f0ffe4;
+font-size:20px;
+font-family: 'Calistoga', cursive;
+text-align:justify;
+}
+#kakoDoNas{
+width:80%;
+height:600px;
+background-image:url(../img/lokacija.png);
+margin:0px auto;
+background-size:cover;
+border-radius:50px;
+}
+#kontakttxt h2{
+color:#698a50;
+font-family: 'Calistoga', cursive;
+text-align:center;
+font-size:50px;
+padding-top:20px;
+letter-spacing:3px;
+}
+#informations{
+display:flex;
+justify-content:space-between;
+background-color:#f0ffe4;
+padding:70px;
+}
+.informacije{
+background-color:#698a50;
+width:400px;
+height:300px;
+border-radius:100px 50px 100px 50px;
+}
+.informacije h3{
+text-align:center;
+font-size:40px;
+color:#f0ffe4;
+font-family: 'Calistoga', cursive;
+padding-top:40px;
+}
+.informacije p{
+text-align:center;
+font-size:30px;
+color:#f0ffe4;
+font-family: 'Calistoga', cursive;
+padding-top:60px;
+}
+#text1{
+width:100%;
+height:70px;
+background-color:#93c572;
+border-radius:30px;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+}
+#text1 p{
+color:#f0ffe4;
+font-weight:700;
+font-size:24px;
+font-family: 'Bebas Neue', cursive;
+text-align:center;
+letter-spacing:3px;
+padding:18px;
+}
+#text2{
+width:100%;
+height:70px;
+background-color:#93c572;
+border-radius:30px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+}
+#text2 p{
+color:#f0ffe4;
+font-weight:700;
+font-size:24px;
+font-family: 'Bebas Neue', cursive;
+text-align:center;
+letter-spacing:3px;
+padding:18px;
+}
+#rs{
+width:100%;
+background-color:#93c572;
+}
+#rs ul{
+text-align:center;
+padding:1px;
+}
+#rs li{
+padding-right:20px;
+color:#f0ffe4;
+font-family: 'Calistoga', cursive;
+font-size:30px;
+}

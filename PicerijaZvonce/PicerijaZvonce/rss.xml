@@ -1,0 +1,29 @@
+<rss version="2.0">
+<channel>
+<item>
+    <title>Picerija Zvonce početna</title>
+    <link>http://picerijazvonce.rs/index.html</link>
+    <description>Picerija Zvonce početna</description>
+</item>
+<item>
+    <title>Meni</title>
+    <link>http://picerijazvonce.rs/meni.html</link>
+    <description>Meni</description>
+</item>
+<item>
+    <title>Poručivanje</title>
+    <link>http://picerijazvonce.rs/poručivanje.html</link>
+    <description>Poručivanje</description>
+</item>
+<item>
+    <title>Kontakt</title>
+    <link>http://picerijazvonce.rs/kontakt.html</link>
+    <description>Kontakt</description>
+</item>
+<item>
+    <title>O autoru</title>
+    <link>http://picerijazvonce.rs/autor.html</link>
+    <description>O autoru</description>
+</item>
+</channel>
+</rss>
